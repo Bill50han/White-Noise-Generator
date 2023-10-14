@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DED497AE-42D3-3B65-83C0-0FF2FA5846DA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>J:\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule J:/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/90722/source/repos/White Noise Generator" "-BC:/Users/90722/source/repos/White Noise Generator/build" --check-stamp-file "C:/Users/90722/source/repos/White Noise Generator/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule J:/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/90722/source/repos/White Noise Generator" "-BC:/Users/90722/source/repos/White Noise Generator/build" --check-stamp-file "C:/Users/90722/source/repos/White Noise Generator/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePrintHelpers.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLanguage.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;J:\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\ZERO_CHECK.vcxproj">
+      <Project>{E6C35A3A-28AE-3EDA-BA41-82A145BB1D8D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst-hosting\inspectorapp\VST3Inspector.vcxproj">
+      <Project>{AF1EC91F-D232-3072-BA97-2C5D7EAD0748}</Project>
+      <Name>VST3Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{E7861A3C-88A2-396E-8328-825B13DDCB50}</Project>
+      <Name>adelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{456A45BA-B69C-3F31-9466-8703EB97B4C1}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
+      <Project>{C34B6A67-3154-3D40-8C32-71D4E8AF8FCA}</Project>
+      <Name>again-sampleaccurate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{39F16DCA-A952-3CDF-A931-607376B605B6}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\base\base.vcxproj">
+      <Project>{ADFF47DA-0F20-3E35-BE65-A79F79B033CA}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{E315C130-C153-3A5B-A843-9C8AB498E5C6}</Project>
+      <Name>channelcontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{82C69CB5-5D08-3B3F-B9C6-76D6423D2E4F}</Project>
+      <Name>editorhost</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{8C70992B-2507-36E1-BA2F-129A75E2EB28}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{0A775579-3C95-38B7-AA68-6EE8ADCF5CA6}</Project>
+      <Name>legacymidiccout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{1F2AA1AA-78AB-39CC-9C18-3534F2D8B9D7}</Project>
+      <Name>mda-vst3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{3822FFAA-11EC-37DE-B84B-D236AC979D51}</Project>
+      <Name>moduleinfotool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
+      <Project>{E8483C53-C5B7-36CC-9D4C-15B9483BF711}</Project>
+      <Name>multiple-program-changes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{DD10C7DE-0AE6-3E6C-A080-39E05350A613}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{BDA59E40-3480-3866-B3DA-A6F5520DFAA9}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{394E9107-4CB5-3B02-AB43-862211694112}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{4A637435-3330-3283-80D9-E35188A94C9C}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{D8B767D2-4775-35D6-BCC5-C65374D43FCB}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
+      <Project>{5154E44A-935B-3479-AAD0-7C11E09C8EDF}</Project>
+      <Name>prefetchable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{366DAA5A-683B-3DA0-B7A2-254CCDEBAFEE}</Project>
+      <Name>programchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{612978B9-833A-34BA-9E15-20087090F054}</Project>
+      <Name>sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{78968D90-AA5A-3E02-B550-8057953C81FF}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{CF9B0B2E-F81F-35AD-A398-12B2D4CE0F80}</Project>
+      <Name>sdk_hosting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{0D9C2CFE-2B36-35F4-9319-CA368FB12D99}</Project>
+      <Name>syncdelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{185FFEBB-8DF9-32C2-B8E8-C0CC0F1C30F9}</Project>
+      <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{CA709A04-A068-30E8-B85E-451A9E51678B}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{125FB39B-24AA-3A93-AA7D-22DBD646FF8C}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{33B490B5-7002-3CED-A8F1-B137E7F17B0D}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\90722\source\repos\White Noise Generator\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{C9277E8B-E776-3DBB-A314-E1AAB939F660}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

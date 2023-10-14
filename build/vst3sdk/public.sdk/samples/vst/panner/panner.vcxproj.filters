@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\source\plugfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\source\plugcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\source\plugprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\include\plugcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\include\plugids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\include\plugprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\include\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\plug.uidesc" />
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\background.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\animation_knob.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\background_2x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\background_3x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\animation_knob_3x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\A2EAF7DB320640F48EDE380DDF89562C_snapshot.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\A2EAF7DB320640F48EDE380DDF89562C_snapshot_2.0x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\panner\resource\info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C3933894-B000-3E2A-A05D-EE8532A06CB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{82568ACE-EDD1-33D4-9DD1-1901AF9E6E75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60375CFD-1695-3E27-BD9A-7195AFCAD406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

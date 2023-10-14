@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3padcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\source\vst\vstguieditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\source\vst\vstgui_win32_bundle_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3padcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\vstgui4\vstgui\plugin-bindings\vst3editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\source\vst\vstgui_win32_bundle_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C3933894-B000-3E2A-A05D-EE8532A06CB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60375CFD-1695-3E27-BD9A-7195AFCAD406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

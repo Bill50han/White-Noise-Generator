@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeParseArguments.cmake
+D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePrintHelpers.cmake
+D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLanguage.cmake
+D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+J:/VST_SDK/vst3sdk/CMakeLists.txt
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_AAXSupport.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_AddCommonOptions.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_AddSMTGLibrary.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_AddVST3Library.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_AddVST3Options.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_Bundle.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_CodeSign.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_ConfigureCmakeGenerator.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_CoreAudioSupport.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_CustomModuleTarget.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_DetectPlatform.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_ExportedSymbols.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_FindJack.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_Global.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformIOS.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_Platform_Windows.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_PrefixHeader.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_SetDebugExecutable.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_SetupVST3LibraryDefaultPath.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_UniversalBinary.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_VST3_SDK.cmake
+J:/VST_SDK/vst3sdk/cmake/modules/SMTG_VstGuiSupport.cmake

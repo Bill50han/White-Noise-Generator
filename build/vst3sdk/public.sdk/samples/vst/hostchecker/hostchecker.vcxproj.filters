@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\editorsizecontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlistcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogdatabrowsersource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckercontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckerprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\parameterchangescheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\processcontextcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\processsetupcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\editorsizecontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlistcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogdatabrowsersource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\eventlogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckercontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\hostcheckerprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\logevents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\parameterchangescheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\processcontextcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\processsetupcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\resource\hostchecker.uidesc" />
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\resource\bypass.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\resource\knob.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="J:\VST_SDK\vst3sdk\public.sdk\samples\vst\hostchecker\resource\info.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C3933894-B000-3E2A-A05D-EE8532A06CB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{82568ACE-EDD1-33D4-9DD1-1901AF9E6E75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{60375CFD-1695-3E27-BD9A-7195AFCAD406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
